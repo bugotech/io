@@ -1,0 +1,30 @@
+{
+    "name"       : "bugotech/io",
+    "description": "The Bugotech IO package.",
+    "homepage"   : "http://www.netforce.com.br",
+    "license"    : "GPL v.3",
+    "authors"    : [
+        {
+            "name" : "Bruno Gonçalves",
+            "email": "bugotech@gmail.com"
+        }
+    ],
+
+    "require": {
+        "bugotech/support"     : "1.0.*",
+        "illuminate/filesystem": "5.2.*"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Bugotech\\IO\\": "src/"
+        }
+    },
+
+    "minimum-stability": "dev",
+    "prefer-stable"    : true
+}
