@@ -2,9 +2,6 @@
 
 use Carbon\Carbon;
 
-/**
- * Class Transação.
- */
 class Transacao
 {
     const DEBITO = 'DEBIT';
@@ -33,7 +30,7 @@ class Transacao
 
     /**
      * Data da transacao.
-     * 
+     *
      * @var \DateTime
      */
     public $data;

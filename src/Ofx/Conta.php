@@ -1,8 +1,5 @@
 <?php namespace Bugotech\IO\Ofx;
 
-/**
- * Class Conta.
- */
 class Conta
 {
     /**
@@ -18,7 +15,7 @@ class Conta
     public $numConta = '';
 
     /**
-     * Número da agência
+     * Número da agência.
      * @var string
      */
     public $agencia = '';

@@ -2,9 +2,6 @@
 
 use Carbon\Carbon;
 
-/**
- * Class Ofx
- */
 class Ofx
 {
     /**
