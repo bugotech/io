@@ -44,7 +44,6 @@ class Ofx
      */
     public $transacoes = [];
 
-
     /**
      * Load an OfxFile.
      *
@@ -73,7 +72,6 @@ class Ofx
         $this->conta->banco = $dom->getElementsByTagName('BANKID')->item(0)->textContent;
         $this->conta->numConta = substr($dom->getElementsByTagName('ACCTID')->item(0)->textContent, 5);
         $this->conta->agencia = substr($dom->getElementsByTagName('ACCTID')->item(0)->textContent, 0, 5);
-
 
         //Transacoes
         foreach ($dom->getElementsByTagName('STMTTRN') as $item) {
